@@ -1,0 +1,53 @@
+/* shared styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav related styles */
+nav{
+    background-color: aqua;
+    margin-bottom: 100px;
+}
+nav img{
+    width: 90px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid tomato;
+}
+nav > ul {
+    display: flex;
+   
+
+    
+}
+nav ul li{
+    list-style: none;
+  margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav .shop-img{
+    display: flex;
+}
+/* banner related styles */
+
+.banner{
+    display: flex;
+    background-color: azure;
+}
+.banner .banner-text-item{
+    margin-left: 130px;
+}
+ .banner-img img{
+    width: 50%;
+    margin-left: 100px;
+}
+.button-primary{
+    padding: 10px;
+    border-color: yellow;
+}
